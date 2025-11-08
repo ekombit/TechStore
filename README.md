@@ -1,36 +1,36 @@
-**TechStore
-🛍️ Description**
+TechStore
+🛍️ Description
 
-TechStore is a modern multi-page web project developed using HTML, CSS, and JavaScript.
-It represents an online gadget store featuring user authentication, profile management, shopping cart, checkout, and external API integration for loading the latest tech products.
+TechStore is a modern multi-page web project built using HTML, CSS, and JavaScript.
+It represents a simulated online gadget store featuring user authentication, shopping cart, profile page, and external API integration for displaying the latest tech devices.
 
-The main goal of the project is to provide an intuitive interface and a realistic e-commerce simulation with a clean, responsive design.
+The project focuses on delivering an intuitive user interface, modern responsive design, and practical front-end functionality.
 
 🚀 Features
 
-✅ User Authentication – Simulated sign-up and login using localStorage and sessionStorage.
-✅ Profile Page – Displays user information such as name, email, and phone.
-✅ Product Catalog – Interactive product listing with “Add to Cart” functionality.
-✅ Cart System – Add and remove products from the shopping cart.
-✅ Checkout Page – Order form with client-side validation.
-✅ Light / Dark Mode – Theme toggle with persistent storage.
-✅ External API Integration – Fetching real gadget data from an external API using fetch() and async/await.
-✅ Animated UI Effects – Smooth transitions and hover animations.
-✅ Responsive Design – Works perfectly on desktop, tablet, and mobile devices.
+✅ User Authentication – Simulated Sign Up and Log In using localStorage and sessionStorage.
+✅ Profile Page – Displays saved user information such as name, email, and phone number.
+✅ Product Catalog – Browse, view, and dynamically load products.
+✅ Shopping Cart System – Add and remove items from the cart.
+✅ Checkout Page – Form validation and purchase simulation.
+✅ Light / Dark Mode – Toggle theme with saved user preference.
+✅ External API Integration – Loads real gadget data via fetch() (DummyJSON API).
+✅ Animated UI Effects – Smooth transitions and hover effects.
+✅ Responsive Design – Works seamlessly on desktop, tablet, and mobile.
 
 🗂️ Project Structure
 /TechStore
 │
 ├── index.html          # Home page
-├── about.html          # About page
-├── products.html       # Product catalog
+├── about.html          # About Us page
+├── products.html       # Product catalog (includes API integration)
 ├── cart.html           # Shopping cart
 ├── checkout.html       # Checkout page
-├── signup.html         # Sign-up page
-├── login.html          # Login page
+├── signup.html         # Sign-up form
+├── login.html          # Login form
 ├── profile.html        # User profile
 │
-├── /images             # Images and icons
+├── /images             # Icons and images
 ├── /css                # Stylesheets (Bootstrap + custom)
 ├── /js                 # JavaScript files
 │
@@ -38,25 +38,25 @@ The main goal of the project is to provide an intuitive interface and a realisti
 
 🧠 Technologies Used
 Technology	Purpose
-HTML5	Page structure and content
-CSS3 + Bootstrap	Modern, responsive styling
-JavaScript (ES6)	Logic, form validation, and API interactions
-jQuery	Simplified DOM manipulation
-Git / GitHub	Version control and project hosting
-GitHub Pages	Static website hosting
-TechSpecs / DummyJSON API	External data for gadgets (API integration)
+HTML5	Structure and layout of web pages
+CSS3 + Bootstrap	Responsive and modern styling
+JavaScript (ES6)	Front-end logic, validation, and interactivity
+jQuery	Simplified DOM and form handling
+Git / GitHub	Version control and collaboration
+GitHub Pages	Hosting the live website
+DummyJSON API	Dynamic gadget data for products section
 ⚙️ Installation and Setup
 📋 Requirements:
 
-A modern web browser (Chrome, Firefox, Edge, Safari)
+Modern browser (Chrome, Firefox, Edge, Safari)
 
-Internet connection (for APIs and Bootstrap CDN)
+Internet connection (for CDN and API)
 
 🧩 Steps:
 
 Clone the repository:
 
-git clone https://github.com/yourusername/TechStore.git
+git clone https://github.com/ekombit/TechStore.git
 
 
 Navigate to the project folder:
@@ -64,18 +64,19 @@ Navigate to the project folder:
 cd TechStore
 
 
-Open the index.html file in your browser:
+Open the project:
 
-Either double-click it
+Double-click index.html, or
 
-Or drag it into Chrome
+Right-click → “Open with Live Server” in VS Code
 
 🌐 Hosting
 
-The project is hosted on GitHub Pages
-🔗 Live Demo: https://yourusername.github.io/TechStore
+The project is hosted via GitHub Pages
 
-💾 Repository: https://github.com/yourusername/TechStore
+🔗 Live Demo: https://ekombit.github.io/TechStore/
+
+💾 Repository: https://github.com/ekombit/TechStore
 
 📊 Tech Stack Distribution
 Language	Percentage
@@ -84,36 +85,36 @@ CSS	32%
 JavaScript	30%
 💬 Contributing
 
-We welcome contributions!
-If you’d like to improve TechStore, please follow these steps:
+Contributions are welcome!
+To contribute, follow these steps:
 
-Fork the repository.
+Fork the repository
 
 Create a new branch:
 
-git checkout -b feature/your-feature-name
+git checkout -b feature/your-feature
 
 
-Make your changes and commit them:
+Commit your changes:
 
 git commit -m "Add new feature"
 
 
 Push your branch:
 
-git push origin feature/your-feature-name
+git push origin feature/your-feature
 
 
-Create a Pull Request.
+Create a Pull Request
 
 
 📧 Email: yelefteriadian@mail.ru
 
-🌍 GitHub: https://github.com/yourusername
+🌍 GitHub: https://github.com/ekombit
 
- Thank You
+❤️ Thank You
 
 Thank you for visiting TechStore!
-This project was created for educational purposes to demonstrate practical web development skills.
+This project was created for educational purposes as part of a Web Development course to demonstrate front-end skills such as layout, interactivity, and API integration.
 
 “Code with logic, design with heart.” 💙
